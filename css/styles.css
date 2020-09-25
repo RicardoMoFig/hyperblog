@@ -1,0 +1,44 @@
+/*
+ESTILOS CSS DE HYPERBLOG - ENSAYO
+*/
+
+body {
+    background-color: goldenrod;
+    color: #1b1b1b;
+    font-size: 14px;
+    padding: 80px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    display: block;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 48px;
+    padding-bottom: 80px;
+}
+
+h3 {
+    color: rgb(51, 37, 1);
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.main_box {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom:  rgb(51, 37, 1) 1px solid;
+    background-color: rgb(196, 147, 25);
+}
+
+.content_box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
