@@ -2,6 +2,10 @@
 ESTILOS CSS DE HYPERBLOG - ENSAYO
 */
 
+
+/*--------------------------------
+CSS GENERALES
+--------------------------------*/
 body {
     background-color: goldenrod;
     color: #1b1b1b;
@@ -14,31 +18,67 @@ body {
 
 p, h1, h2, h3, h4, h5, h6 {
     display: block;
-}
-
-h1 {
-    color: #ffffff;
-    font-size: 48px;
-    padding-bottom: 80px;
-}
-
-h3 {
-    color: rgb(51, 37, 1);
-    font-size: 32px;
-    padding-bottom: 50px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .main_box {
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom:  rgb(51, 37, 1) 1px solid;
-    background-color: rgb(196, 147, 25);
 }
 
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-variant: small-caps;
+}
+
+h3 {
+    color: rgb(51, 37, 1);
+    font-size: 32px;
+}
+
+/*--------------------------------
+CSS DEL HEAD
+--------------------------------*/
+.head {
+    padding: 30px 50px 30px 50px;
+    border-bottom:  #fff 3px solid;
+    background-color: rgb(196, 147, 25);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+    header.head h1 {
+        padding-bottom: 10px;
+    }
+    header.head h3 {
+        color: #ffffff;
+        padding: 5px 5px 5px 10px;
+        background: #000;
+        width: 290px;
+    }
+
+    .logoBox img {
+        width: 100%;
+        max-width: 75px;
+    }
+
+
+/*--------------------------------
+CSS DEL CONTENT
+--------------------------------*/
 .content_box {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    background-color: rgb(61, 45, 5);
 }
+
+
+/*--------------------------------
+CSS DEL FOOTER
+--------------------------------*/
