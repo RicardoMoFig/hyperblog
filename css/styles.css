@@ -33,6 +33,12 @@ h1 {
     font-variant: small-caps;
 }
 
+h2 {
+    font-size: 38px;
+    color: #000;
+    text-transform: capitalize;
+}
+
 h3 {
     color: rgb(51, 37, 1);
     font-size: 32px;
@@ -76,13 +82,36 @@ CSS DEL HEAD
 CSS DEL CONTENT
 --------------------------------*/
 .content_box {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 80px 50px;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    background-color: rgb(61, 45, 5);
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: rgb(216, 200, 159);
 }
+    .content_box .txtBox {
+        width: 60%;
+        /* background-color: yellow; */
+        padding: 30px 0px;
+    }
+        .txtBox h4 {
+            color: rgb(121, 87, 3);
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border-bottom: 1px dotted rgb(61, 45, 5);
+        }
+        .txtBox p {
+            font-size: 18px;
+            padding-bottom: 30px;
+            text-align: justify;
+        }
+        
+    .content_box .imgBg {
+        width: 30%;
+        height: 480px;
+        background-color: rgb(182, 165, 124);
+        border-radius: 8px;
+    }
 
 
 /*--------------------------------
