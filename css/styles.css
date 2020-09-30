@@ -109,9 +109,14 @@ CSS DEL CONTENT
     .content_box .imgBg {
         width: 30%;
         height: 480px;
+        overflow: hidden;
         background-color: rgb(182, 165, 124);
         border-radius: 8px;
     }
+        .content_box .imgBg img {
+            width: auto;
+            height: 100%;
+        }
 
 
 /*--------------------------------
