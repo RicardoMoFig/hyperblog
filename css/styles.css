@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, ul, h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 0px;
     margin: 0px;
@@ -134,7 +134,7 @@ footer.footerSection {
     width: 100%;
     background: #000;
     padding: 30px 50px;
-    color: gainsboro;
+    color: rgb(77, 77, 77);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -145,26 +145,57 @@ footer.footerSection {
     footer .footerTop {
         display: flex;
         flex-flow: row wrap;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         padding-bottom: 30px;
         margin-bottom: 30px;
         border-bottom: 1px dotted #1b1b1b;
     }
         .footerTop div {
-            width: 30%;
-            max-width: 280PX;
+            width: 22%;
             padding: 30px 0px;
         }
             .footerTop div h4 {
-                color: #fff;
+                color: rgb(151, 151, 151);
                 padding-bottom: 25px;
                 font-weight: 600;
             }
             .footerTop div p {
                 text-align: left;
+                line-height: 24px;
             }
+            .footerTop a {
+                color:  rgb(77, 77, 77);
+                text-decoration: none;
+            }
+            .footerTop a:hover {
+                color: rgb(216, 200, 159);
+            }
+            .footerTop div ul li {
+                text-align: left;
+                padding-bottom: 12px;
+                margin-left: 13px;
+                padding-left: 5px;
+                list-style-type: square;
+            }
+                .footerTop div ul li a:hover {
+                    background-color: rgb(216, 200, 159);
+                    color: #000;
+                    padding: 5px 3px;
+                }
     footer .footerDown {
         padding: 10px 0px;
         text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
     }
+        .footerDown div img {
+            width: 100%;
+            max-width: 75px;
+            padding-bottom: 30px;
+        }
+        .footerDown p {
+            color: rgb(58, 58, 58);
+        }
