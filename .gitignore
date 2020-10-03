@@ -1,5 +1,6 @@
-/img
-/assets
+/assets/img/*.jpg
+/assets/img/*.png
+/assets/img/*.gif
 
 *.jpg
 *.png
